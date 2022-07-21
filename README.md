@@ -15,4 +15,4 @@
 *ul  https://nglazov.github.io/bem-validator-page/
 *ul  https://autoprefixer.github.io/ru/
 
-### GitHub Pages:https://natalyapeshkova.github.io/DenimProject/
+### GitHub Pages:https://natalyapeshkova.github.io/DenimProject/index_denimProject

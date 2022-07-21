@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Anton&family=Work+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <title> Denim Project main page </title>
+</head>
+
+<body class="page">
+	<header class="header container"> 
+		<nav class="header__navigation">
+		<a class="header__navigation-link" href="#" title="Woman"> <b>Woman</b></a>
+		<a class="header__navigation-link" href="#" title="Man"> <b> Man </b></a> 
+		<a class="header__navigation-link" href="#" title="New"> <b> New </b></a>
+	</nav>
+	<div class="header__title"> Nîmes </div>
+	<div class="header__links">  
+		<a class="header__img user" href="./profile_page.html" title="user profile" target="_blank"> User </a>
+		<img src="./image/search.jpg" class="header__img search" alt="иконка поиск" title="иконка поиск"> 
+		<img src="./image/bascket.jpg" class="header__img basket" alt="иконка корзина" title="иконка корзина">  
+	</div>
+	</header>
+
+	<main class="profile-page container">
+			<section> 
+				<img class="profile-foto" src="./image/profile-foto1.jpg" alt="profile-foto" title="profile-foto">
+				<div class="profile-history">
+					<p class="profile-history__title">History</p>
+					<div class="table">
+						<div class="table-line">
+							<span class="table-line__date"> 28.02.1990 </span> 
+							<span class="table-line__object"> Jacket </span>
+							<span class="table-line__quantity"> 1 </span>
+							<span class="table-line__price"> $60 </span>
+						</div>
+						<div class="table-line">
+							<span class="table-line__date"> 15.07.2002 </span> 
+							<span class="table-line__object"> Jacket Black XXL </span>
+							<span class="table-line__quantity"> 1 </span>
+							<span class="table-line__price"> $260 </span>
+						</div>
+						<div class="table-line">
+							<span class="table-line__date">  07.09.2003  </span> 
+							<span class="table-line__object"> Overals</span>
+							<span class="table-line__quantity"> 5 </span>
+							<span class="table-line__price"> $6000 </span> 
+						</div>
+						<div class="table-line">
+							<span class="table-line__date">  15.09.2003  </span> 
+							<span class="table-line__object"> Model White Extra </span>
+							<span class="table-line__quantity"> 1 </span>
+							<span class="table-line__price"> $58 </span> 
+						</div>
+						<div class="table-line">
+							<span class="table-line__date">  25.05.2005  </span> 
+							<span class="table-line__object"> Jacket </span>
+							<span class="table-line__quantity"> 1 </span>
+							<span class="table-line__price"> $80 </span> 
+						</div>
+						<div class="table-line">
+							<span class="table-line__date">  28.02.2020  </span> 
+							<span class="table-line__object"> Jacket </span>
+							<span class="table-line__quantity"> 1 </span>
+							<span class="table-line__price"> $60 </span> 
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<form class="profile" action="#" method="post">
+					<fieldset class="profile__info">
+						<legend class="profile__title"> Your profile </legend>
+						<div class="line">
+							<label class="profile__label" for="name"> Name </label>
+							<input class="profile__input" type="text" id="name" placeholder="Enter your name">
+						</div>
+						<div class="line">
+							<label class="profile__label" for="surname"> Surname </label>
+							<input class="profile__input" type="text" id="surname" placeholder="Enter your surname">
+						</div>
+						<div class="line">
+							<label class="profile__label" for="birthday"> Birthday </label>
+							<input class="profile__input" type="text" id="birthday" placeholder="Enter your birthday">
+						</div>
+						<div class="line radio">
+							<label class="profile__label"> Gender </label> 	
+							<label><input type="radio" name="gender" value="male" class="profile__input-radio" checked>Male</label>
+							<label><input type="radio" name="gender" value="female" class="profile__input-radio">Female</label>
+						</div>
+						<div class="line select">
+							<label class="profile__label"> Country </label> 
+							<select class="profile__input profile__input-select">
+								<option value="" disabled selected hidden>Select your country</option>
+								<option> Russian Federation</option>
+								<option> France </option>
+								<option> Australia </option>
+							</select>
+						</div>
+						<div class="line select city">
+							<label class="profile__label"> City </label> 
+							<select class="profile__input profile__input-select">
+								<option value="" disabled selected hidden>Select your city</option>
+								<option> Moskow</option>
+								<option> Paris </option>
+								<option> Sydney </option>
+							</select>
+						</div>
+						<div class="line">
+							<label class="profile__label" for="email"> Email </label>
+							<input class="profile__input" type="email" id="email" placeholder="Enter your email">
+						</div>
+						<div class="line">
+							<label class="profile__label" for="phone"> Phone </label>
+							<input class="profile__input" type="text" id="phone" placeholder="Enter your phone">
+						</div>
+						<label class="profile__label line" for="message"> About yourself </label>
+						<textarea class="profile__textarea" id="message" name="message" maxlength="500" rows="13" cols="33" spellcheck="true" wrap="hard"> </textarea>
+						<button class="profile__button"> Send </button>
+					</fieldset>
+				</form>
+			</section>
+	</main>
+		
+		
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__title"> Nîmes </div>
+				<div class="navigation">
+					<a class="navigation__link" href="#" title="Shop">Shop</a>
+					<a class="navigation__link" href="#" title="Delivery">Delivery</a>
+					<a class="navigation__link" href="#" title="Service">Service</a>
+					<a class="navigation__link" href="#" title="Sitemap">Sitemap</a>
+					<a class="navigation__link" href="./contact_us.html" title="Contacts">Contacts</a>
+				</div>
+				<div class="social-icons">
+					<a href="https://en.wikipedia.org/wiki/Facebook" title="Facebook" target="_blank"><img class="social-icons__link" src="./image/Vector.svg" alt="Facebook" title="Facebook"></a>
+					
+					<a href="https://en.wikipedia.org/wiki/Instagram" title="Instagram" target="_blank"><img class="social-icons__link" src="./image/instagram.svg" alt="Instagram" title="Instagram"></a>
+	
+					<a href="https://www.pinterest.ru/" title="pinterest" target="_blank"><img class="social-icons__link" src="./image/printerestr.svg" alt="pinterest" title="pinterest"></a>
+	
+					<a href="https://en.wikipedia.org/wiki/Twitter" title="Twitter" target="_blank"><img class="social-icons__link" src="./image/twitter.svg" alt="Twitter" title="Twitter"></a>
+				</div>
+			</div>
+		</footer>
+	
+	</body>
+	</html>
+	

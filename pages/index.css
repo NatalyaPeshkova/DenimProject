@@ -1,0 +1,50 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/font.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/font/font.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__navigation/header__navigation.css);
+@import url(../blocks/header/__nimes/header__nimes.css);
+@import url(../blocks/header/__img/header__img.css);
+@import url(../blocks/header/__navigation-link/header__navigation-link.css);
+
+@import url(../blocks/introduce/introduce.css);
+@import url(../blocks/introduce-section/introduce-section.css);
+@import url(../blocks/introduce-section/__text/introduce-section__text.css);
+@import url(../blocks/introduce-section/__title/introduce-section__title.css);
+@import url(../blocks/introduce-section/__button/introduce-section__button.css);
+@import url(../blocks/introduce-section/__button-text/introduce-section__button-text.css);
+@import url(../blocks/introduce-section/__rectangle/introduce-section__rectangle.css);
+@import url(../blocks/introduce-section/__foto/introduce-section__foto.css);
+@import url(../blocks/introduce-section/__arrow/introduce-section__arrow.css);
+
+@import url(../blocks/bestsellers/bestsellers.css);
+
+@import url(../blocks/block-bar/block-bar.css);
+@import url(../blocks/block-bar/__link/block-bar__link.css);
+@import url(../blocks/block-bar/__title/block-bar__title.css);
+
+@import url(../blocks/elements/elements.css);
+@import url(../blocks/element/element.css);
+@import url(../blocks/element/__title/element__title.css);
+@import url(../blocks/element/__price/element__price.css);
+@import url(../blocks/element/__img/element__img.css);
+
+@import url(../blocks/news/news.css);
+@import url(../blocks/news-content/news-content.css);
+@import url(../blocks/news-content/__foto/news-content__foto.css);
+@import url(../blocks/news-block/news-block.css);
+@import url(../blocks/news-block/__title/news-block__title.css);
+@import url(../blocks/news-block/__subtitle/news-block__subtitle.css);
+@import url(../blocks/news-block/__text/news-block__text.css);
+@import url(../blocks/news-block/__button/news-block__button.css);
+
+@import url(../blocks/categories/categories.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__title/footer__title.css);
+@import url(../blocks/navigation/navigation.css);
+@import url(../blocks/navigation/__link/navigation__link.css);
+ 
+@import url(../blocks/social-icons/social-icons.css);
+@import url(../blocks/social-icons/__link/social-icons__link.css);

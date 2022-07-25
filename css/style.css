@@ -334,7 +334,7 @@ a {
 }
 
 .header__navigation.product-block__header {
-  padding-right: 300px;
+  padding-right: 310px;
 }
 
 a:hover {
@@ -825,45 +825,34 @@ a:hover {
 .product-description {
   display: flex;
   flex-direction: column;
-  margin-right: 0;
+  padding-left: 70px;
   background-color: #F1F2F4;
   width: 668px;
   height: 656px;
+  font-family: "Work Sans";
 }
 
 .product-description__title {
-  font-family: "Work Sans";
-  font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 38px;
   margin: 0;
-  margin-top: 67px;
-  margin-left: 70px;
+  padding-top: 60px;
 }
 
 .product-description__text {
-  font-family: "Work Sans";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   width: 370px;
-  -webkit-margin-before: 0;
-          margin-block-start: 0;
-  -webkit-margin-after: 0;
-          margin-block-end: 0;
-  -webkit-margin-start: 0;
-          margin-inline-start: 0;
-  -webkit-margin-end: 0;
-          margin-inline-end: 0;
-  margin-top: 30px;
-  margin-left: 70px;
+  max-height: 90px;
+  margin: 0;
+  padding-top: 30px;
+  overflow: hidden;
 }
 
 .product-description-section {
   margin-top: 40px;
-  margin-left: 70px;
 }
 
 .product-description-section__title {
@@ -875,24 +864,15 @@ a:hover {
           margin-inline-start: 0;
   -webkit-margin-end: 0;
           margin-inline-end: 0;
-  font-family: "Work Sans";
-  font-style: normal;
   font-weight: 500;
   font-size: 18px;
 }
 
-.product-description-section__block {
-  margin-top: 25px;
-}
-
 .color-radio {
   margin: 0;
-  margin-right: 27px;
 }
 
 .size-section__link {
-  font-family: "Work Sans";
-  font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 21px;
@@ -902,29 +882,24 @@ a:hover {
 
 .price-section {
   margin-top: 30px;
-  font-family: "Work Sans";
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 21px;
-  margin-left: 70px;
 }
 
 .product-description-section__button {
   background-color: #151C22;
   color: #F1F2F4;
-  font-family: "Work Sans";
   font-weight: 700;
   font-size: 16px;
   width: 200px;
   height: 64px;
   align-self: flex-start;
-  margin-left: 70px;
-  margin-top: 50px;
 }
 
 .product-image {
-  margin-left: 98px;
+  padding-left: 98px;
+  padding-right: 50px;
 }
 
 .product-image__main-block {
@@ -935,6 +910,8 @@ a:hover {
 .product-image__main {
   width: 400px;
   height: 523px;
+  padding-right: 60px;
+  padding-left: 50px;
 }
 
 .product-image__main:hover {
@@ -946,7 +923,7 @@ a:hover {
   grid-template-rows: auto;
   grid-template-columns: auto auto auto auto;
   width: 400px;
-  margin-left: 80px;
+  padding-left: 70px;
 }
 
 .product-image__small {
@@ -965,14 +942,9 @@ a:hover {
 }
 
 .bracket {
-  margin-top: 198px;
-  margin-right: 50px;
+  padding-top: 190px;
   width: 21px;
   background: no-repeat;
-}
-
-.bracket:last-child {
-  margin-left: 60px;
 }
 
 .bracket:hover {

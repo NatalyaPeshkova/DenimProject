@@ -360,7 +360,7 @@ a {
 }
 
 .header__navigation {
-  margin: 32px 320px 20px 98px;
+  padding: 32px 320px 20px 98px;
   display: flex;
 }
 
@@ -378,14 +378,14 @@ a:hover {
 }
 
 .header__title {
-  margin: 25px 0 0;
+  padding: 25px 0 0;
   font-weight: 800;
   font-size: 24px;
 }
 
 .header__links {
   display: flex;
-  margin: 24px 98px 0 402px;
+  padding: 24px 98px 0 402px;
 }
 
 .header__img.user {

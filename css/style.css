@@ -325,7 +325,7 @@ a {
 }
 
 .header__navigation {
-  padding: 32px 240px 20px 98px;
+  padding: 32px 310px 20px 98px;
   display: flex;
 }
 
@@ -337,8 +337,8 @@ a {
   padding-right: 35px;
 }
 
-.header__navigation.block {
-  padding-right: 310px;
+.header__navigation.main {
+  padding-right: 240px;
 }
 
 a:hover {

@@ -47,26 +47,25 @@
 				<section class="product-description">
 					<p class="product-description__title"> Overalls</p>
 					<p class="product-description__text">Overalls in washed organic cotton denim. Collar, button fly, and adjustable belt at waist. Chest pockets with flap. Long, gently flared sleeves and straight legs with front pockets and back pockets.</p>
-					<div class="product-description-section">
-						<p class="product-description-section__title">Color</p>
-						<div class="product-description-section__block">
-						<input type="radio" name="color" value="silver" id="silver" class="color-radio" checked>
-						<input type="radio" name="color" value="grayish_blue" id="grayish_blue" class="color-radio">
-						<input type="radio" name="color" value="blue" id="blue" class="color-radio">
+					<form class="product-form" action="#" method="post">
+						<p class="product-form__label">Color</p>
+						<div class="product-form__div">
+							<input type="radio" name="color" value="blue" id="blue" class="color-radio color-radio_custom" checked><label  for="blue"></label>
+							<input type="radio" name="color" value="grayish_blue" id="grayish_blue" class="color-radio color-radio_custom"><label  for="grayish_blue"></label>
+							<input type="radio" name="color" value="silver" id="silver" class="color-radio color-radio_custom"><label  for="silver"></label>
+						</div> 
+					</form>
+					<form class="size" action="#" method="post">
+						<p class="size__label">Size</p>
+						<div class="size__block">
+							<input class="size__link size__link_custom" name="size" id="XS" type="radio"></input><label for="XS"></label>
+							<input class="size__link size__link_custom" name="size" id="S" type="radio" checked></input><label for="S"></label>
+							<input class="size__link size__link_custom" name="size" id="M" type="radio"></input><label for="M"></label>
+							<input class="size__link size__link_custom" name="size" id="L" type="radio"></input><label for="L"></label>
+							<input class="size__link size__link_custom" name="size" id="XL" type="radio"></input><label for="XL"></label>
 						</div>
-					</div>
-					<div class="product-description-section">
-						<p class="product-description-section__title">Size</p>
-						<div class="product-description-section__block"></div>
-							<a class="size-section__link" href="#" title="size XS">XS</a>
-							<a class="size-section__link" href="#" title="size S">S</a>
-							<a class="size-section__link" href="#" title="size M">M</a>
-							<a class="size-section__link" href="#" title="size L">L</a>
-							<a class="size-section__link" href="#" title="size XL">XL</a>
-						<div class=".product-description-section__block"></div>
-					</div>
 					<div class="price-section"><span>&#36;</span> 160</div>
-					<button class="product-description-section__button">Add to cart</button>
+					<button class="product-description__button">Add to cart</button>
 				</section>
 			</div>				
 		</div>
@@ -75,7 +74,7 @@
 			<H2 class="block-bar__title">You may also like</H2>
 			<a class="block-bar__link" href="#" title="View all"> View all</a> 
 			</div>
-			<div class="elements"> 
+			<div class="elements product-card"> 
 			<div class="element">
 				<img class="element__img" src="./image/product-gallery 1 .jpg" alt="outfit" title="outfit">
 				<p class="element__title"> Overalls</p>
@@ -92,7 +91,7 @@
 				<p class="element__price"> <span>&#36;</span> 70 </p>
 			</div>
 			<div class="element">
-				<img class="element__img" src="./image/categoriesImg4.jpg" alt="outfit" title="outfit">
+				<img class="element__img" src="./image/product-card-bestsellers4.jpg" alt="outfit" title="outfit">
 				<p class="element__title"> Jacket </p>
 				<p class="element__price"> <span>&#36;</span> 60 </p>
 			</div>

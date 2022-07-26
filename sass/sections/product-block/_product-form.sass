@@ -1,0 +1,97 @@
+.product-form
+    padding-top: 45px
+    margin: 0
+
+.product-form__label
+    margin: 0 
+    padding-bottom: 20px
+
+
+.color-radio_custom 
+    position: absolute
+    z-index: -1
+    opacity: 0
+
+.color-radio_custom+label 
+    display: inline-flex
+    align-items: center
+    user-select: none
+
+.color-radio_custom+label::before 
+    content: ''
+    display: inline-block
+    width: 1em
+    height: 1em
+    flex-shrink: 0
+    flex-grow: 0
+    border: 1px solid #adb5bd
+    border-radius: 50%
+    margin-right: 25px
+    background-repeat: no-repeat
+    background-position: center center
+    background-size: 50% 50%
+
+#silver+label::before
+    background-color: #b0c3c7
+
+#grayish_blue+label::before
+    background-color: #3b6392
+
+#blue+label::before
+    background-color: #bfc3c8 
+
+
+.size
+    padding-top: 40px
+
+.size__label
+    margin: 0
+    padding-bottom: 20px
+
+.size__link
+    padding-right: 10px
+
+.size__link_custom
+    position: absolute
+    z-index: -1
+    opacity: 0
+    margin: 0
+
+.size__link_custom+label 
+    display: inline-flex
+    align-items: center
+    user-select: none
+
+.size__link_custom+label::before 
+    content: ''
+    display: inline-block
+    width: 1em
+    height: 1em
+    flex-shrink: 0
+    flex-grow: 0
+    margin-right: 10px
+    background-repeat: no-repeat
+    background-position: center center
+    background-size: 50% 50%
+
+#XS+label::before
+    content: 'XS'
+    width: 20px
+
+#S+label::before
+    content: 'S'
+    width: 20px
+
+
+#M+label::before
+    content: 'M'
+    width: 20px
+
+#L+label::before
+    content: 'L'
+    width: 20px
+
+#XL+label::before
+    content: 'XL'
+    width: 20px
+

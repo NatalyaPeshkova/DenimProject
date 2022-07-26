@@ -337,7 +337,7 @@ a {
   padding-right: 35px;
 }
 
-.header__navigation.product-block__header {
+.header__navigation.block {
   padding-right: 310px;
 }
 
@@ -626,7 +626,7 @@ a:hover {
 }
 
 .profile-foto {
-  margin-left: 168px;
+  padding: 0 130px 90px 168px;
   width: 400px;
   height: 523px;
 }
@@ -640,7 +640,6 @@ a:hover {
   max-width: 568px;
   height: 601px;
   background-color: #F1F2F4;
-  margin-top: 90px;
 }
 
 .profile-history__title {
@@ -648,8 +647,8 @@ a:hover {
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
-  padding-top: 46px;
-  margin: 0 0 30px 70px;
+  padding: 45px 0 30px 70px;
+  margin: 0;
 }
 
 .profile__info {
@@ -657,7 +656,6 @@ a:hover {
   max-height: 1221px;
   height: 100%;
   background-color: #F1F2F4;
-  margin-left: 130px;
   border: none;
   font-family: "Work Sans";
   position: relative;
@@ -708,7 +706,7 @@ a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 98px 19px 70px;
+  padding: 0 98px 19px 70px;
 }
 
 .profile__input-radio {
@@ -719,16 +717,17 @@ a:hover {
 }
 
 .line.radio {
-  margin-top: 30px;
+  padding-top: 10px;
   justify-content: start;
 }
 
 .line.select {
-  margin-top: 70px;
+  padding-top: 55px;
 }
 
 .line.select.city {
   margin-top: 0;
+  padding-top: 0;
 }
 
 .profile__input-select {
@@ -740,12 +739,15 @@ a:hover {
 
 .profile__textarea {
   resize: none;
-  margin: 0 35px 0 70px;
+  margin-left: 70px;
+  padding: 0 35px 0 0;
   width: 500px;
+  box-sizing: border-box;
 }
 
 .profile__label.line {
-  margin-top: 70px;
+  padding-top: 50px;
+  padding-bottom: 10px;
 }
 
 .profile__button {
@@ -755,7 +757,7 @@ a:hover {
   font-size: 16px;
   width: 200px;
   height: 64px;
-  margin: 50px 98px 70px 365px;
+  margin: 50px 0 98px 370px;
 }
 
 .profile__button:hover {
@@ -765,15 +767,12 @@ a:hover {
 
 .profile-page {
   display: flex;
-  margin-top: 80px;
-}
-
-.footer.profile-footer {
-  margin-top: 116px;
+  padding-top: 60px;
+  padding-bottom: 90px;
 }
 
 .table {
-  margin-left: 70px;
+  padding-left: 70px;
   display: grid;
   grid-template-rows: 13px 13px 13px 13px 13px 13px;
   grid-template-columns: auto;
@@ -800,7 +799,7 @@ a:hover {
   font-weight: 500;
   font-size: 18px;
   width: 172px;
-  margin-left: 29px;
+  padding-left: 20px;
 }
 
 .table-line__quantity {
@@ -809,7 +808,7 @@ a:hover {
   font-weight: 400;
   font-size: 18px;
   width: 14px;
-  margin-left: 43px;
+  padding-left: 50px;
 }
 
 .table-line__price {
@@ -818,7 +817,7 @@ a:hover {
   font-weight: 700;
   font-size: 16px;
   width: 58px;
-  margin-left: 37px;
+  padding-left: 37px;
 }
 
 .product-block {

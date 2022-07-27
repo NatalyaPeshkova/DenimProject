@@ -1334,4 +1334,20 @@ a:hover {
     padding-bottom: 30px;
     align-items: flex-start;
   }
+}
+
+@media (max-width: 1024px) {
+  .contact-info__wrapper {
+    padding: 0 412px 0 100px;
+  }
+}
+@media (max-width: 780px) {
+  .contact-info__wrapper {
+    padding: 0 412px 0 50px;
+  }
+}
+@media (max-width: 700px) {
+  .contact-info__wrapper {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */

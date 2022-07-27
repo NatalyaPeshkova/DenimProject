@@ -11,6 +11,9 @@
         padding-bottom: 0
 
 .header__links
+    @media (max-width: 1350px) 
+        padding-right: 0
+        padding-left: 300px
     @media (max-width: 1280px) 
         padding-left: 0
         padding-bottom: 30px
@@ -114,12 +117,13 @@
         left: 300px
     @media (max-width: 780px)
         display: none
+
 .select-block__item
-    @media (max-width: 1280px)
+    @media (max-width: 1350px)
         padding-left: 0
 
 .catalog-elements
-    @media (max-width: 1280px) 
+    @media (max-width: 1350px) 
         grid-template-columns: repeat(2, auto)
         grid-template-rows: repeat(2, auto)
         column-gap: 20px
@@ -130,6 +134,15 @@
         grid-template-rows: repeat(6, auto)
     @media (max-width: 600px)
         padding-left: 0
+        padding-right: 0
+
+.catalog-element__title
+    @media (max-width: 600px)
+        display: none
+
+.catalog-element__price
+    @media (max-width: 600px)
+        display: none 
 
 .catalog-page__text
     @media (max-width: 1280px)

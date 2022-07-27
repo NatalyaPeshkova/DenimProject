@@ -129,7 +129,8 @@ a {
 .footer__title {
   font-weight: 800;
   font-size: 24px;
-  padding: 0 646px 27px;
+  padding-left: 646px;
+  padding-bottom: 27px;
   color: white;
 }
 
@@ -1200,7 +1201,7 @@ a:hover {
   }
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1365px) {
   .footer__title {
     padding-left: 0;
     padding-right: 0;

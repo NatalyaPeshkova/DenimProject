@@ -4,7 +4,6 @@
   max-width: 1366px;
   min-width: 320px;
   margin: 0 auto;
-  border: solid red 3px;
 }
 
 a {
@@ -16,7 +15,6 @@ a {
 .wrapper {
   max-width: 1366px;
   margin: 0 auto;
-  border: green solid 2px;
 }
 
 .container {
@@ -359,7 +357,7 @@ a:hover {
   padding: 24px 98px 0 402px;
 }
 
-.header__links.product-card__header {
+.header__links.special__header {
   padding-right: 50px;
 }
 
@@ -667,7 +665,7 @@ a:hover {
 }
 
 .profile-foto {
-  padding: 0 130px 90px 168px;
+  padding: 0 120px 90px 168px;
   width: 400px;
   height: 523px;
 }
@@ -693,7 +691,7 @@ a:hover {
 }
 
 .profile__info {
-  width: 668px;
+  max-width: 660px;
   max-height: 1221px;
   height: 100%;
   background-color: #F1F2F4;
@@ -1112,6 +1110,12 @@ a:hover {
   }
 }
 
+@media (max-width: 1350px) {
+  .header.profile__header {
+    display: none;
+  }
+}
+
 @media (max-width: 1280px) {
   .header__navigation {
     padding-left: 0;
@@ -1119,7 +1123,7 @@ a:hover {
   }
 }
 
-@media (max-width: 1350px) {
+@media (max-width: 1360px) {
   .header__links {
     padding-right: 0;
     padding-left: 300px;
@@ -1408,5 +1412,36 @@ a:hover {
     grid-template-rows: repeat(2, auto);
     grid-template-columns: repeat(2, auto);
     width: 300px;
+  }
+}
+
+@media (max-width: 1360px) {
+  .profile-page {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 1365px) {
+  .profile-history {
+    display: none;
+  }
+}
+
+@media (max-width: 1365px) {
+  .profile-foto {
+    padding: 0;
+  }
+}
+@media (max-width: 600px) {
+  .profile-foto {
+    width: 250px;
+    height: auto;
+  }
+}
+
+@media (max-width: 800px) {
+  .profile__info {
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */

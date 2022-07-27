@@ -5,13 +5,17 @@
         flex-direction: column
         justify-content: flex-start
 
+.header.profile__header
+    @media (max-width: 1350px) 
+        display: none
+
 .header__navigation
     @media (max-width: 1280px) 
         padding-left: 0
         padding-bottom: 0
 
 .header__links
-    @media (max-width: 1350px) 
+    @media (max-width: 1360px) 
         padding-right: 0
         padding-left: 300px
     @media (max-width: 1280px) 
@@ -210,3 +214,24 @@
         grid-template-rows: repeat(2, auto)
         grid-template-columns: repeat(2, auto)
         width: 300px
+
+// PROFILE PAGE 
+.profile-page
+    @media (max-width: 1360px)
+        flex-direction: column
+        align-items: flex-start
+
+.profile-history
+    @media (max-width: 1365px)
+        display: none
+
+.profile-foto
+    @media (max-width: 1365px)
+        padding: 0
+    @media (max-width: 600px)
+        width: 250px
+        height: auto
+
+.profile__info
+    @media (max-width: 800px)
+        display: none

@@ -1,3 +1,4 @@
+// MAIN 
 // header media 
 .header
     @media (max-width: 1280px) 
@@ -50,9 +51,9 @@
 // elements media
 .elements
     @media (max-width: 1280px) 
-        padding: 30px 0 0 0
-        display: grid
-        justify-content: center
+        // padding: 30px 0 0 0
+        // display: grid
+        // justify-content: center
         grid-template-columns: repeat(2, auto)
         grid-template-rows: repeat(2, auto)
         column-gap: 20px
@@ -94,3 +95,59 @@
 .page
     @media (max-width: 320px)
         display: none 
+
+// CATALOG
+.catalog-section__links
+    @media (max-width: 1280px)
+        padding-left: 0
+
+.catalog-section__title
+    @media (max-width: 1280px)
+        padding-left: 0
+
+.catalog-section__rectangle
+    @media (max-width: 1280px)
+        display: none
+
+.catalog-section__picture
+    @media (max-width: 1280px)
+        left: 300px
+    @media (max-width: 780px)
+        display: none
+.select-block__item
+    @media (max-width: 1280px)
+        padding-left: 0
+
+.catalog-elements
+    @media (max-width: 1280px) 
+        grid-template-columns: repeat(2, auto)
+        grid-template-rows: repeat(2, auto)
+        column-gap: 20px
+        row-gap: 20px
+        max-width: 768px
+    @media (max-width: 780px) 
+        grid-template-columns: auto
+        grid-template-rows: repeat(6, auto)
+    @media (max-width: 600px)
+        padding-left: 0
+
+.catalog-page__text
+    @media (max-width: 1280px)
+        margin: 0
+
+.catalog-page__button
+    @media (max-width: 1280px)
+        margin: 0
+
+.catalog-footer__section
+    @media (max-width: 1280px)
+        padding-left: 0
+
+.catalog-footer__title
+    @media (max-width: 400px)
+        display: none
+
+.catalog-footer__navigation
+    @media (max-width: 600px)
+        padding-bottom: 30px
+        align-items: flex-start

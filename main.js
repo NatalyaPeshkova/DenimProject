@@ -1,19 +1,22 @@
 const modalWindow = document.querySelector('.form');
 const loginInput = modalWindow.querySelector('#login');
 const passwordInput = modalWindow.querySelector('#password');
-// const errorMessage = modalWindow.querySelector('.error');
 const modalButton = modalWindow.querySelector('.form__btn');
 const errorLog =  modalWindow.querySelector('.log__error');
 const errorPas = modalWindow.querySelector('.password__error');
-const modalOpenBtn = document.querySelector('#openModalWindow');
 const fullWindow = document.querySelector('.window');
-
+const modalOpenBtn = document.querySelector('#openModalWindow');
+const modalEscBtn = modalWindow.querySelector('.esc-button')
 
 function toggleModal () {
     modalWindow.classList.toggle('hidden');
     fullWindow.classList.toggle('opacity')
 }
 
+function closeModalByEscBtn () {
+    modalWindow.classList.toggle('hidden');
+    fullWindow.classList.toggle('opacity')
+}
 
 function submitForm(evt) {
     const loginPasRegEx =  
@@ -32,9 +35,9 @@ function submitForm(evt) {
         // errorMessage.classList.remove('hidden');
         errorLog.classList.remove('hidden');
         errorPas.classList.remove('hidden');
-
     }
 }
 
 modalButton.addEventListener('click', submitForm)
 modalOpenBtn.addEventListener('click', toggleModal)
+modalEscBtn.addEventListener('click', closeModalByEscBtn)

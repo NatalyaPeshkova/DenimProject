@@ -5,7 +5,7 @@ const passwordInput = modalWindow.querySelector('#password');
 const modalButton = modalWindow.querySelector('.form__btn');
 const errorLog =  modalWindow.querySelector('.log__error');
 const errorPas = modalWindow.querySelector('.password__error');
-const modalOpenBtn = document.querySelector('.btn');
+const modalOpenBtn = document.querySelector('#openModalWindow');
 
 
 function toggleModal () {

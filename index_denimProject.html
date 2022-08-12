@@ -24,41 +24,42 @@
         </nav>
         <a class="header__title" href="https://natalyapeshkova.github.io/DenimProject/index_denimProject" title="MainPage"> Nîmes </a>
         <div class="header__links special__header">  
-        <a class="header__img user" href="https://natalyapeshkova.github.io/DenimProject/profile_page" title="user profile">User</a>
+        <a class="header__img user" id="openModalWindow" title="user profile">User</a>
         <img src="./image/search.jpg" class="header__img search" alt="иконка поиск" title="иконка поиск"> 
         <img src="./image/bascket.jpg" class="header__img basket" alt="иконка корзина" title="иконка корзина">
         </div>
       </header>
     </div>
+
+      <form action="send.html" class="form hidden">
+        <fieldset class="form__border">
+            <button type="button" class="esc-button"> X </button>
+            <legend>Авторизация</legend>
+            <label for="login">Логин</label>
+            <input
+                class="form__input"
+                id="login"
+                type="text"
+                placeholder="Введите ваш логин"
+            />
+            <div class="error hidden  log__error">
+                <p class="error__message"> В логине ошибка </p>
+            </div>
+            <label for="password">Пароль</label>
+            <input
+                class="form__input"
+                id="password"
+                type="password"
+                placeholder="Введите ваш пароль"
+            />
+            <div class="error hidden password__error">
+                <p class="error__message"> В пароле ошибка </p>
+            </div>
+            <button type="submit" class="form__btn">Войти</button>
+        </fieldset>
+      </form>
     
       <main>
-        <form action="send.html" class="form">
-          <fieldset class="form__border">
-              <button type="button" class="esc-button"> X </button>
-              <legend>Авторизация</legend>
-              <label for="login">Логин</label>
-              <input
-                  class="form__input"
-                  id="login"
-                  type="text"
-                  placeholder="Введите ваш логин"
-              />
-              <div class="error hidden  log__error">
-                  <p class="error__message"> В логине ошибка </p>
-              </div>
-              <label for="password">Пароль</label>
-              <input
-                  class="form__input"
-                  id="password"
-                  type="password"
-                  placeholder="Введите ваш пароль"
-              />
-              <div class="error hidden password__error">
-                  <p class="error__message"> В пароле ошибка </p>
-              </div>
-              <button type="submit" class="form__btn">Войти</button>
-          </fieldset>
-
         <div class="wrapper"> 
           <section class="introduce-section">
             <p class="introduce-section__text">The quality you deserve</p>

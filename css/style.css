@@ -213,7 +213,7 @@ a {
   height: 520px;
   right: 268px;
   top: 50px;
-  z-index: 1000;
+  z-index: 900;
   background-size: cover;
 }
 
@@ -1107,6 +1107,10 @@ a:hover {
   box-sizing: border-box;
   width: 400px;
   min-height: 300px;
+  position: fixed;
+  z-index: 1000;
+  left: 40%;
+  top: 20%;
   background-color: #F1F2F4;
   margin: 50px auto;
   padding: 25px;
@@ -1146,6 +1150,10 @@ a:hover {
 
 .hidden {
   display: none;
+}
+
+.opacity {
+  opacity: 0.4;
 }
 
 @media (max-width: 1280px) {

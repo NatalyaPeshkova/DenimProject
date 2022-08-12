@@ -6,10 +6,12 @@ const modalButton = modalWindow.querySelector('.form__btn');
 const errorLog =  modalWindow.querySelector('.log__error');
 const errorPas = modalWindow.querySelector('.password__error');
 const modalOpenBtn = document.querySelector('#openModalWindow');
+const fullWindow = document.querySelector('.window');
 
 
 function toggleModal () {
     modalWindow.classList.toggle('hidden');
+    fullWindow.classList.toggle('opacity')
 }
 
 

@@ -9,7 +9,6 @@ const fullWindow = document.querySelector('.window');
 const modalOpenBtn = document.querySelector('#openModalWindow');
 const modalEscBtn = modalWindow.querySelector('.esc-button')
 
-
 function toggleModal () {
     loginInput.value="";
     passwordInput.value="";    

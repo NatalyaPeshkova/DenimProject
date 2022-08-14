@@ -20,6 +20,8 @@ function toggleModal () {
 function closeModalByEscBtn () {
     modalWindow.classList.toggle('hidden');
     fullWindow.classList.toggle('opacity')
+    errorLog.classList.toggle('hidden');
+    errorPas.classList.toggle('hidden');
 }
 
 function submitForm(evt) {

@@ -2,13 +2,17 @@ const modalWindow = document.querySelector('.form');
 const loginInput = modalWindow.querySelector('#login');
 const passwordInput = modalWindow.querySelector('#password');
 const modalButton = modalWindow.querySelector('.form__btn');
+const errorMessage = modalWindow.querySelector('.error');
 const errorLog =  modalWindow.querySelector('.log__error');
 const errorPas = modalWindow.querySelector('.password__error');
 const fullWindow = document.querySelector('.window');
 const modalOpenBtn = document.querySelector('#openModalWindow');
 const modalEscBtn = modalWindow.querySelector('.esc-button')
 
+
 function toggleModal () {
+    loginInput.value="";
+    passwordInput.value="";    
     modalWindow.classList.toggle('hidden');
     fullWindow.classList.toggle('opacity')
 }
@@ -32,7 +36,6 @@ function submitForm(evt) {
     } else {
         evt.preventDefault();
         console.log('not ok');
-        // errorMessage.classList.remove('hidden');
         errorLog.classList.remove('hidden');
         errorPas.classList.remove('hidden');
     }

@@ -5,7 +5,7 @@ const modalButton = modalWindow.querySelector('.form__btn');
 const errorMessage = modalWindow.querySelector('.error');
 const errorLog =  modalWindow.querySelector('.log__error');
 const errorPas = modalWindow.querySelector('.password__error');
-const fullWindow = document.querySelector('.window');
+const modalBackground = document.querySelector('.window');
 const modalOpenBtn = document.querySelector('#openModalWindow');
 const modalEscBtn = modalWindow.querySelector('.esc-button')
 
@@ -13,12 +13,12 @@ function toggleModal () {
     loginInput.value="";
     passwordInput.value="";    
     modalWindow.classList.toggle('hidden');
-    fullWindow.classList.toggle('opacity')
+    modalBackground.classList.toggle('opacity')
 }
 
 function closeModalByEscBtn () {
     modalWindow.classList.toggle('hidden');
-    fullWindow.classList.toggle('opacity')
+    modalBackground.classList.toggle('opacity')
     errorLog.classList.toggle('hidden');
     errorPas.classList.toggle('hidden');
 }

@@ -9,6 +9,7 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Anton&family=Work+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
     <title>Denim Project product card</title>
+	<script defer src="./main.js"></script>
 </head>
 
 <body class="page">
@@ -27,77 +28,104 @@
 			</div>
 		</header>
 	</div>
-<div class="wrapper">
-	<main class="product-page window">
-		<div class="product-block">
-			<section class="product-image">
-				<div class="product-image__main-block">
-					<div class="bracket"><img src="./image/bracket1.jpg" title="bracket" alt="bracket"></div>
-					<img class="product-image__main" src="./image/productMain.jpg" title="product-foto" alt="product-foto">
-					<div class="bracket"><img src="./image/bracket2.jpg" title="bracket" alt="bracket"></div>
-				</div>
-				<div class="product-image__grid">
-					<img class="product-image__small" src="./image/product1.jpg" title="product-foto" alt="product-foto">
-					<img class="product-image__small" src="./image/product2.jpg" title="product-foto" alt="product-foto">
-					<img class="product-image__small" src="./image/product3.jpg" title="product-foto" alt="product-foto">
-					<img class="product-image__small" src="./image/product4.jpg" title="product-foto" alt="product-foto">
-				</div>
-			</section>
-			<section class="product-description">
-				<p class="product-description__title"> Overalls</p>
-				<p class="product-description__text">Overalls in washed organic cotton denim. Collar, button fly, and adjustable belt at waist. Chest pockets with flap. Long, gently flared sleeves and straight legs with front pockets and back pockets.</p>
-				<form class="product-form" action="#" method="post">
-					<p class="product-form__label">Color</p>
-					<div class="product-form__div">
-						<input type="radio" name="color" value="blue" id="blue" class="color-radio color-radio_custom" checked><label  for="blue"></label>
-						<input type="radio" name="color" value="grayish_blue" id="grayish_blue" class="color-radio color-radio_custom"><label  for="grayish_blue"></label>
-						<input type="radio" name="color" value="silver" id="silver" class="color-radio color-radio_custom"><label  for="silver"></label>
-					</div> 
-				</form>
-				<form class="size" action="#" method="post">
-					<p class="size__label">Size</p>
-					<div class="size__block">
-						<input class="size__link size__link_custom" name="size" id="XS" type="radio"><label for="XS"></label>
-						<input class="size__link size__link_custom" name="size" id="S" type="radio" checked><label for="S"></label>
-						<input class="size__link size__link_custom" name="size" id="M" type="radio"><label for="M"></label>
-						<input class="size__link size__link_custom" name="size" id="L" type="radio"><label for="L"></label>
-						<input class="size__link size__link_custom" name="size" id="XL" type="radio"><label for="XL"></label>
+	<form action="https://natalyapeshkova.github.io/DenimProject/profile_page.html" class="form hidden">
+        <fieldset class="form__border">
+            <button type="button" class="esc-button"> X </button>
+            <legend>Авторизация</legend>
+            <label for="login">Логин</label>
+            <input
+                class="form__input"
+                id="login"
+                type="text"
+                placeholder="Введите ваш логин"
+            />
+            <div class="error hidden  log__error">
+                <p class="error__message"> В логине ошибка </p>
+            </div>
+            <label for="password">Пароль</label>
+            <input
+                class="form__input"
+                id="password"
+                type="password"
+                placeholder="Введите ваш пароль"
+            />
+            <div class="error hidden password__error">
+                <p class="error__message"> В пароле ошибка </p>
+            </div>
+            <button type="submit" class="form__btn">Войти</button>
+        </fieldset>
+    </form>
+	<div class="wrapper">
+		<main class="product-page window">
+			<div class="product-block">
+				<section class="product-image">
+					<div class="product-image__main-block">
+						<div class="bracket"><img src="./image/bracket1.jpg" title="bracket" alt="bracket"></div>
+						<img class="product-image__main" src="./image/productMain.jpg" title="product-foto" alt="product-foto">
+						<div class="bracket"><img src="./image/bracket2.jpg" title="bracket" alt="bracket"></div>
 					</div>
-				</form>
-				<div class="price-section"><span>&#36;</span> 160</div>
-				<button class="product-description__button">Add to cart</button>
+					<div class="product-image__grid">
+						<img class="product-image__small" src="./image/product1.jpg" title="product-foto" alt="product-foto">
+						<img class="product-image__small" src="./image/product2.jpg" title="product-foto" alt="product-foto">
+						<img class="product-image__small" src="./image/product3.jpg" title="product-foto" alt="product-foto">
+						<img class="product-image__small" src="./image/product4.jpg" title="product-foto" alt="product-foto">
+					</div>
+				</section>
+				<section class="product-description">
+					<p class="product-description__title"> Overalls</p>
+					<p class="product-description__text">Overalls in washed organic cotton denim. Collar, button fly, and adjustable belt at waist. Chest pockets with flap. Long, gently flared sleeves and straight legs with front pockets and back pockets.</p>
+					<form class="product-form" action="#" method="post">
+						<p class="product-form__label">Color</p>
+						<div class="product-form__div">
+							<input type="radio" name="color" value="blue" id="blue" class="color-radio color-radio_custom" checked><label  for="blue"></label>
+							<input type="radio" name="color" value="grayish_blue" id="grayish_blue" class="color-radio color-radio_custom"><label  for="grayish_blue"></label>
+							<input type="radio" name="color" value="silver" id="silver" class="color-radio color-radio_custom"><label  for="silver"></label>
+						</div> 
+					</form>
+					<form class="size" action="#" method="post">
+						<p class="size__label">Size</p>
+						<div class="size__block">
+							<input class="size__link size__link_custom" name="size" id="XS" type="radio"><label for="XS"></label>
+							<input class="size__link size__link_custom" name="size" id="S" type="radio" checked><label for="S"></label>
+							<input class="size__link size__link_custom" name="size" id="M" type="radio"><label for="M"></label>
+							<input class="size__link size__link_custom" name="size" id="L" type="radio"><label for="L"></label>
+							<input class="size__link size__link_custom" name="size" id="XL" type="radio"><label for="XL"></label>
+						</div>
+					</form>
+					<div class="price-section"><span>&#36;</span> 160</div>
+					<button class="product-description__button">Add to cart</button>
+				</section>
+			</div>				
+			<section class="bestsellers">
+				<div class="block-bar"> 
+				<H2 class="block-bar__title">You may also like</H2>
+				<a class="block-bar__link" href="#" title="View all"> View all</a> 
+				</div>
+				<div class="elements product-card"> 
+				<div class="element">
+					<img class="element__img" src="./image/product-gallery1.jpg" alt="outfit" title="outfit">
+					<p class="element__title"> Overalls</p>
+					<p class="element__price"> <span>&#36;</span> 140 </p>
+				</div>
+				<div class="element">
+					<img class="element__img" src="./image/product-gallery2.jpg" alt="outfit" title="outfit">
+					<p class="element__title"> Overalls </p>
+					<p class="element__price"> <span>&#36;</span> 110 </p>
+				</div>
+				<div class="element">
+					<img class="element__img" src="./image/product-gallery3.jpg" alt="outfit" title="outfit">
+					<p class="element__title"> Jacket</p>
+					<p class="element__price"> <span>&#36;</span> 70 </p>
+				</div>
+				<div class="element">
+					<img class="element__img" src="./image/product-card-bestsellers4.jpg" alt="outfit" title="outfit">
+					<p class="element__title"> Jacket </p>
+					<p class="element__price"> <span>&#36;</span> 60 </p>
+				</div>
+				</div>
 			</section>
-		</div>				
-		<section class="bestsellers">
-			<div class="block-bar"> 
-			<H2 class="block-bar__title">You may also like</H2>
-			<a class="block-bar__link" href="#" title="View all"> View all</a> 
-			</div>
-			<div class="elements product-card"> 
-			<div class="element">
-				<img class="element__img" src="./image/product-gallery1.jpg" alt="outfit" title="outfit">
-				<p class="element__title"> Overalls</p>
-				<p class="element__price"> <span>&#36;</span> 140 </p>
-			</div>
-			<div class="element">
-				<img class="element__img" src="./image/product-gallery2.jpg" alt="outfit" title="outfit">
-				<p class="element__title"> Overalls </p>
-				<p class="element__price"> <span>&#36;</span> 110 </p>
-			</div>
-			<div class="element">
-				<img class="element__img" src="./image/product-gallery3.jpg" alt="outfit" title="outfit">
-				<p class="element__title"> Jacket</p>
-				<p class="element__price"> <span>&#36;</span> 70 </p>
-			</div>
-			<div class="element">
-				<img class="element__img" src="./image/product-card-bestsellers4.jpg" alt="outfit" title="outfit">
-				<p class="element__title"> Jacket </p>
-				<p class="element__price"> <span>&#36;</span> 60 </p>
-			</div>
-			</div>
-		</section>
-	</main>
-</div>
+		</main>
+	</div>
 	<div class="wrapper">		
 		<footer class="footer">
 			<a class="footer__title" href="https://natalyapeshkova.github.io/DenimProject/index_denimProject" title="MainPage"> Nîmes </a>

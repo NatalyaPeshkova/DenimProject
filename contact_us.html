@@ -9,6 +9,7 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Anton&family=Work+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
     <title>Denim Project contact page</title>
+	<script defer src="./main.js"></script>
 </head>
 <body class="page">
 	<div class="wrapper"> 
@@ -26,6 +27,33 @@
 			</div>
 		</header>
 	</div>
+	<form action="https://natalyapeshkova.github.io/DenimProject/profile_page.html" class="form hidden">
+        <fieldset class="form__border">
+            <button type="button" class="esc-button"> X </button>
+            <legend>Авторизация</legend>
+            <label for="login">Логин</label>
+            <input
+                class="form__input"
+                id="login"
+                type="text"
+                placeholder="Введите ваш логин"
+            />
+            <div class="error hidden  log__error">
+                <p class="error__message"> В логине ошибка </p>
+            </div>
+            <label for="password">Пароль</label>
+            <input
+                class="form__input"
+                id="password"
+                type="password"
+                placeholder="Введите ваш пароль"
+            />
+            <div class="error hidden password__error">
+                <p class="error__message"> В пароле ошибка </p>
+            </div>
+            <button type="submit" class="form__btn">Войти</button>
+        </fieldset>
+    </form>
 	<div class="wrapper">
 		<main class="contact window">
 			<form class="contact__form" action="#" method="post">

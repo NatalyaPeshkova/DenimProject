@@ -1,0 +1,10 @@
+export const modalWindow = document.querySelector('.form');
+export const loginInput = modalWindow.querySelector('#login');
+export const passwordInput = modalWindow.querySelector('#password');
+export const modalButton = modalWindow.querySelector('.form__btn');
+export const errorMessage = modalWindow.querySelector('.error');
+export const errorLog =  modalWindow.querySelector('.log__error');
+export const errorPas = modalWindow.querySelector('.password__error');
+export const modalBackground = document.querySelector('.window');
+export const modalOpenBtn = document.querySelector('#openModalWindow');
+export const modalEscBtn = modalWindow.querySelector('.esc-button');

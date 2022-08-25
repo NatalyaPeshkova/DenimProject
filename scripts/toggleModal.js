@@ -2,7 +2,7 @@ import { loginInput,
     passwordInput,
     modalWindow,
     modalBackground
-} from './constants'
+} from './constants.js'
 
 export function toggleModal () {
     loginInput.value="";

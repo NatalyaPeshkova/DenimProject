@@ -1,7 +1,7 @@
 import { modalButton,
     modalOpenBtn,
     modalEscBtn
-    } from './constants';
+    } from './constants.js';
 import {  closeModalByEscBtn } from './closeModalByEscBtn';
 import {  submitForm } from './submitForm';
 import {  toggleModal } from './toggleModal';

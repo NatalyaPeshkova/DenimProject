@@ -2,7 +2,7 @@ import {  loginInput,
     passwordInput,
     errorMessage,
     errorLog,
-    errorPas  } from './constants'
+    errorPas  } from './constants.js'
 
 export function submitForm(evt) {
     const loginPasRegEx =  

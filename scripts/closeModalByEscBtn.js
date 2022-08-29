@@ -2,7 +2,7 @@ import {  modalWindow,
     modalBackground, 
     errorLog, 
     errorPas  
-} from './constants.js'
+} from './constants'
 
 export function closeModalByEscBtn () {
     modalWindow.classList.toggle('hidden');
